@@ -42,26 +42,6 @@ void main(){
     printf("misprediction = %lld\n", misprediction);
     
     disable_all_counters();
-
-
-int end, start, key, execution_time;
-
-
-global variable channel;
-
-// victim
-if(key == 1) {
-    memory_access(channel);
-} elif(key == 0) {
-    do_nothing();
-}
-
-// attacker
-end = get_time();
-memory_access(channel);
-start = get_time();
-execution_time = end - start;
-
 }
 
 
