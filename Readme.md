@@ -22,7 +22,7 @@ Branch interval will affect the accuracy of prediction on both firestorm and ice
 
 Prepare a small number of conditional branches. Ideally，no matter how the branch interval change, the total misprediction and branch number should always be the same as long as all branches can fit in the PHT. However, as the branch interval increase, the misprediction will be less and less than expected.
 
-One guess of this phenomenon is that branch interval has relation with the prediction of global predictor.
+One guess of this phenomenon is that branch interval has correlation with the prediction of global predictor.
 
 ### __Bias to Not Taken__
 The prediction has a bias to not taken on both firestorm and icestorm. 
