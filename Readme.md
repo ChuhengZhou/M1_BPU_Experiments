@@ -1,4 +1,4 @@
-# __Reverse M1 Branch Prediction Unit__
+# __Apple M1 Branch Prediction Unit Reversing__
 Performance counters is assumed to be accurate enough in our experiment.
 
 BPU on two CPU clusters (firestorm and icestorm) may not be same, experiment should be implemented on both clusters.
